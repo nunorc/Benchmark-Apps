@@ -167,7 +167,6 @@ of registering the elapsed time.
 
 sub time_this {
 	my $cmd_line = shift;
-print "D $cmd_line\n";
 	my $start_time = [gettimeofday];
 	system("$cmd_line 2>&1 > /dev/null");
 	return tv_interval($start_time);
