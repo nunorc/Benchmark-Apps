@@ -86,8 +86,6 @@ __END__
 
 =encoding UTF-8
 
-Benchmark::Apps - Simple interface to benchmark applications.
-
 =head1 SYNOPSIS
 
 This module provides a simple interface to benchmark applications (not

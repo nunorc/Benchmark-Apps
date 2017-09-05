@@ -80,8 +80,6 @@ This function is not meant to be used directly, although it can be useful.
 It receives a command line and executes it via system, taking care
 of registering the elapsed time.
 
-Benchmark::Apps - Simple interface to benchmark applications.
-
 # EXAMPLES
 
 Check files in `examples/`.
