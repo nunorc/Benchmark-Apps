@@ -122,7 +122,7 @@ You can also look for information at:
 
 # COPYRIGHT & LICENSE
 
-Copyright 2008 Aberto Simoes, Nuno Carvalho, all rights reserved.
+This software is copyright (c) 2014 - 2017 by Nuno Carvalho and Alberto Simões.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

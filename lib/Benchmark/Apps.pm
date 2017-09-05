@@ -7,6 +7,8 @@ use Time::HiRes qw.gettimeofday tv_interval.;
 
 =head1 NAME
 
+=encoding UTF-8
+
 Benchmark::Apps - Simple interface to benchmark applications.
 
 =head1 SYNOPSIS
@@ -218,11 +220,10 @@ L<http://search.cpan.org/dist/Benchmark-Apps>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Aberto Simoes, Nuno Carvalho, all rights reserved.
+This software is copyright (c) 2014 - 2017 by Nuno Carvalho and Alberto Simões.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
-
 
 =cut
 
