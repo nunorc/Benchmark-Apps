@@ -1,6 +1,10 @@
 # NAME
 
-Benchmark::Apps - Simple interface to benchmark applications.
+Benchmark::Apps - simple interface to benchmark applications.
+
+# VERSION
+
+version 0.05
 
 # SYNOPSIS
 
@@ -28,11 +32,11 @@ call.
 
 ## run
 
-This method is used to run benchmarks. It runs the commands described in 
+This function is used to run benchmarks. It runs the commands described in 
 the hash passed as argument. It returns an hash of the results each command.
-A second hash reference can be passed to this method: a configuration
+A second hash reference can be passed to this function: a configuration
 hash reference. The values passed in this hash override the default
-behaviour of the run method. The configuration options available at this
+behaviour of the run function. The configuration options available at this
 moment are:
 
 - `pretty_print`
@@ -65,64 +69,31 @@ moment are:
     Default: empty function: always returns an empty string, which means no
     arguments will be given to the command
 
-## run
-
-This method runs the commands described in the hash passed as argument.
-It returns an hash of the results and return codes for each command.
-
 ## pretty\_print
 
-This method is used to print the final result to STDOUT before returning 
-from the `run` method.
+This function is used to print the final result to STDOUT before returning 
+from the `run` function.
 
 ## time\_this
 
-This method is not meant to be used directly, although it can be useful.
+This function is not meant to be used directly, although it can be useful.
 It receives a command line and executes it via system, taking care
 of registering the elapsed time.
+
+Benchmark::Apps - Simple interface to benchmark applications.
 
 # EXAMPLES
 
 Check files in `examples/`.
 
-# AUTHOR
+# AUTHORS
 
-Aberto Simoes (aka ambs), `<ambs at cpan.org>`
-Nuno Carvalho (aka smash), `<smash @ cpan.org>`
+- Alberto Simões <ambs@cpan.org>
+- Nuno Carvalho <smash@cpan.org>
 
-# BUGS
+# COPYRIGHT AND LICENSE
 
-Please report any bugs or feature requests to `bug-benchmark-apps at rt.cpan.org`, or through
-the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Benchmark-Apps](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Benchmark-Apps).  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+This software is copyright (c) 2014 - 2017 by Projecto Natura <natura@natura.di.uminho.pt>.
 
-# SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc Benchmark::Apps
-
-You can also look for information at:
-
-- RT: CPAN's request tracker
-
-    [http://rt.cpan.org/NoAuth/Bugs.html?Dist=Benchmark-Apps](http://rt.cpan.org/NoAuth/Bugs.html?Dist=Benchmark-Apps)
-
-- AnnoCPAN: Annotated CPAN documentation
-
-    [http://annocpan.org/dist/Benchmark-Apps](http://annocpan.org/dist/Benchmark-Apps)
-
-- CPAN Ratings
-
-    [http://cpanratings.perl.org/d/Benchmark-Apps](http://cpanratings.perl.org/d/Benchmark-Apps)
-
-- Search CPAN
-
-    [http://search.cpan.org/dist/Benchmark-Apps](http://search.cpan.org/dist/Benchmark-Apps)
-
-# COPYRIGHT & LICENSE
-
-This software is copyright (c) 2014 - 2017 by Nuno Carvalho and Alberto Simões.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
